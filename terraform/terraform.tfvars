@@ -1,0 +1,9 @@
+location = "westeurope"
+resource_group_name = "playground-aks-ephemeral"
+cluster_name = "aks-ephemeral"
+private_cluster_enabled = false
+kubernetes_version = "1.23.3"
+node_count = 1
+vm_size = "Standard_D8ds_v4"
+os_disk_type = "Ephemeral"
+os_disk_size_gb = 310
